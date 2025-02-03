@@ -1,65 +1,119 @@
 # MoE-tHe-oNLy
 This bot created by the master him self ~ᡕᠵ᠊ᡃ່࡚ࠢ࠘⸝່ࠡ᠊߯ᡁࠣ࠘᠊᠊ࠢ࠘气亠MoEᡕᠵ᠊ᡃ່࡚ࠢ࠘⸝່ࠡ᠊߯ᡁࠣ࠘᠊᠊ࠢ࠘气亠. +1 213 (606) 1765 ☠️
 
-# 🤖 MoE-tHe-oNLy Bot  
+Hapa chini ni README.md ambayo imebadilishwa kwa kutumia URL yako ya GitHub:
 
-![MoE-tHe-oNLy Bot](https://imgur.com/lG6KPS6)  
+# MoE-tHe-oNLy WhatsApp Bot
 
-This bot was created by the master himself:  
-~•~•~MoE~•~•~ +1 (213) 606 1765 💀  
+MoE-tHe-oNLy is a WhatsApp bot designed to make WhatsApp usage faster and more efficient. This bot relies on the Baileys library for WhatsApp Web API integration.
 
----
+## Setup
 
-## 📖 About the Bot
+### Step 1: Fork the Repo
 
-MoE-tHe-oNLy Bot is a WhatsApp bot built using the **Baileys library**, designed for managing WhatsApp groups efficiently.  
-It includes features like tagging all members, muting/unmuting groups, and much more.
+Fork this repository to your own GitHub account.
 
----
+[![FORK REPO](https://img.shields.io/badge/FORK_REPO-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=black)](https://github.com/Kennwalker/MoE-tHe-oNLy/fork)
 
-## 🚀 How to Deploy the Bot
+### Step 2: Get the Session
 
-You can deploy this bot easily on the following platforms:
+To start using the bot, grab your session ID.
 
-[![Deploy on Railway](https://img.shields.io/badge/Deploy-Railway-blue?style=for-the-badge)](https://railway.app/template)  
-[![Deploy on Heroku](https://img.shields.io/badge/Deploy-Heroku-purple?style=for-the-badge)](https://heroku.com/deploy?template=https://github.com/Kennwalker/MoE-tHe-oNLy.git)  
-[![Deploy on Replit](https://img.shields.io/badge/Deploy-Replit-green?style=for-the-badge)](https://replit.com/github/Kennwalker/MoE-tHe-oNLy.git)  
-[![Deploy on Koyeb](https://img.shields.io/badge/Deploy-Koyeb-black?style=for-the-badge)](https://app.koyeb.com/deploy)  
-[![Deploy on Hugging Face](https://img.shields.io/badge/Deploy-Hugging%20Face-yellow?style=for-the-badge)](https://huggingface.co/spaces)  
-[![Deploy on KATABUMP](https://img.shields.io/badge/Deploy-KATABUMP-orange?style=for-the-badge)](https://katabump.com)  
-[![Deploy on BOT HOSTING](https://img.shields.io/badge/Deploy-BOT%20HOSTING-red?style=for-the-badge)](https://bothosting.com)
+[![GET SESSION](https://img.shields.io/badge/GET_SESSION-100000?style=for-the-badge&logo=render&logoColor=white&labelColor=black&color=black)](https://bit.ly/41mQBbY)
+
+#### NOTICE
+
+This bot is intended for personal use. I am not responsible for any misuse or account bans. Do not modify the source code for malicious purposes.
 
 ---
 
-## 📱 How to Connect to WhatsApp
+## DEPLOYMENT PLATFORMS
 
-1. After deploying the bot, open the terminal or logs to get the QR Code.
-2. Open WhatsApp on your phone:
-   - Go to **Settings > Linked Devices > Link a Device**.
-   - Scan the QR Code displayed in the terminal.
-3. Once scanned, the bot will connect to your WhatsApp account.
+### Deploy to Render
 
----
+1. Create an account on Render if you don’t already have one.
 
-## 🔧 Features
+[![Create Render Account](https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=render&logoColor=white)](https://dashboard.render.com/register)
 
-- Group management tools:
-  - Tag all members
-  - Mute/unmute groups
-- Automated responses
-- Customizable commands
+2. Get your **DATABASE_URL** from the [Render Dashboard](https://dashboard.render.com/new/database) and copy it.
+
+3. Now you can deploy.
+
+[![Deploy to Render](https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white)](https://render.com/deploy?repo=https://github.com/Kennwalker/MoE-tHe-oNLy)
 
 ---
 
-## 🛠 Requirements
+### Deploy to Heroku
 
-- Node.js 16+ installed
-- A GitHub account
-- Basic knowledge of Git and hosting platforms
+1. Create an account on Heroku if you don’t have one.
+
+[![Create Heroku Account](https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white)](https://signup.heroku.com/)
+
+2. Deploy the bot.
+
+[![Deploy to Heroku](https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=heroku&logoColor=white)](https://www.heroku.com/deploy?template=https://github.com/Kennwalker/MoE-tHe-oNLy)
 
 ---
 
-## 🌟 Credits
+### Deploy to Koyeb
 
-Created by [MoEhafsathy](https://github.com/Kennwalker).  
-For support, contact: **+1 (213) 606 1765**.
+1. Create an account on Koyeb.
+
+[![Create Koyeb Account](https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=koyeb&logoColor=white)](https://app.koyeb.com/auth/signup)
+
+2. Get your **DATABASE_URL** from Koyeb.
+
+3. Deploy the bot.
+
+[![Deploy to Koyeb](https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb&logoColor=white)](https://app.koyeb.com/services/deploy/?type=git&repository=https%3A%2F%2Fgithub.com%2FKennwalker%2FMoE-tHe-oNLy)
+
+---
+
+## Run on VPS or Locally
+
+### 1. Install Node.js
+
+Ensure that Node.js is installed on your system.
+
+### 2. Install Dependencies
+
+```bash
+npm i -g pm2 yarn
+git clone https://github.com/Kennwalker/MoE-tHe-oNLy.git
+cd MoE-tHe-oNLy
+yarn install
+
+3. Configuration
+
+Create a .env file with the following configuration:
+
+VPS=true
+NODE_ENV=production
+SESSION_ID=null
+SUDO=12136061765
+CMD_REACT=true
+BOT_INFO=MoE-tHe-oNLy
+MODE=private
+AUTO_STATUS_READ=false
+AUTO_READ=false
+STICKER_PACK=MoE-tHe-oNLy
+PREFIX=.
+LOGS=false
+
+Make sure to replace SESSION_ID with your actual session ID.
+
+4. Start the Bot
+
+npm start
+
+5. Stop the Bot
+
+npm stop
+
+Contributing
+
+If you wish to contribute to this project, feel free to fork the repository and submit a pull request.
+
+Contact
+
+For any questions or support, feel free to reach out to MoE-tHe-oNLy.
